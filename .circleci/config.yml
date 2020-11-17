@@ -39,9 +39,9 @@ jobs:
 
         # bundle キャッシュを保存する。公式の設定通り。
         - save_cache:
-            key: v1-dependencies-{{ checksum "Gemfile.lock" }}
             paths:
               - ./vendor/bundle
+            key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
         #↓追加する
         - run:

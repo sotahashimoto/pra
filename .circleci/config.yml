@@ -1,7 +1,7 @@
 # CircleCIのバージョン
 version: 2
-  # 1つ以上のjobを設定する
-  jobs:
+# 1つ以上のjobを設定する
+jobs:
     # jobが1つだけの場合、job名はbuildでなければならない
     build:
       # docker/machine/macos のいずれかをconfig.ymlに記載する必要がある

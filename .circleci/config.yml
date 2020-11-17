@@ -7,7 +7,7 @@ jobs:
       # docker/machine/macos のいずれかをconfig.ymlに記載する必要がある
       docker:
         #アプリのバージョンを指定
-        - image: circleci/ruby:2.6.3-node
+        - image: circleci/ruby:2.5.8-node
           environment:
             #自身の登録しているユーザに変える。
             POSTGRES_USER: postgres

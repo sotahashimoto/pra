@@ -20,7 +20,7 @@ jobs:
             POSTGRES_USER: postgres
             #下記を書けばパスワードなしでデータベースにログインしてくれる
             POSTGRES_HOST_AUTH_METHOD: trust
-            POSTGRES_DB: portfolio_test
+            POSTGRES_DB: postgres
       #自身のアプリ名にする
       working_directory: ~/pra
       steps:
